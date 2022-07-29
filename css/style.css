@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(to right, rgba(55, 59, 68,.4), rgba(66, 134, 244,.7)), url('/images/backgroundImagee.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+padding: 3% 2% 0 3%;
+}
+.body-container{
+    margin-top: 3%;
+}
+nav{
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+nav .right{
+    width: 60%;
+    border-bottom: 3px solid white;
+}
+.phone-icon{
+    font-size: 25px;
+    transform: rotate(-40deg)
+}
+nav .right ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .right ul .last-list{
+    display: flex;
+    align-items: center;
+}
+nav .right ul li:hover{
+    font-weight: 700;
+}
+.last-list p{
+    font-size: 15px;
+    padding-left: 15px;
+}
+.vl{
+    border-left: 1px solid white;
+    height: 60px;
+    margin-left: 60%;
+}
+.round{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    margin-left: 55%;
+
+}
+.body-container .first{
+    padding-top: 4%;
+    display: flex;
+}
+.heading{
+    width: 70%;
+}
+.heading h1{
+    font-size: 60px;
+    color: #ffffff;
+}
+.card-container .card .icon{
+    text-align: center;
+    width: 30%;
+padding: 2% 4%;
+background-color: #ffffff;
+border-radius: 10px;
+
+}
+.card-container .card p{
+    font-weight: 700;
+    font-size: 14px;
+color: #ffffff;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.card-container .card{
+    width: 100%;
+    padding: 15% 12%;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.second{
+    align-items: center;
+    display: flex;
+}
+.icon{
+    font-size: 20px;
+}
+.second .button{
+    width: 40%;
+}
+.second .button button{
+    padding: 3%;
+    width: 50%;
+    background: transparent;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    
+
+}

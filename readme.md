@@ -6,7 +6,7 @@ This is my assignment designed for [iNeuron.](https://ineuron.ai/)
 ## Screenshot
 
 ![App Screenshot](Screenshot.png)
->note: Responsive design under construction 🛠️
+
 
 [Live Demo](https://parveshahamed-interior-design-landing-page.netlify.app/)
 
@@ -16,7 +16,7 @@ By building this assignment I've learned css flexbox, positions and how to imple
 
 ## 🚀 About Me
 
-19 ♂, Student doing BSc Information Technology, Fullstack Developer🧑‍💻.
+19, Student doing BSc Information Technology, Fullstack Developer🧑‍💻.
 
 ## 💼 Technical Skills
 
